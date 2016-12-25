@@ -1,0 +1,153 @@
+﻿
+body,
+.warpper,
+p{
+	margin:0;
+	  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+    font: 12px 宋体, Arial;
+}
+
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;}
+
+.warpper{
+	background-image: url("../images/bg.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+	height: 100%;
+    position: relative;
+    min-height: 600px;
+    min-width: 310px;
+}
+.logo-box{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	z-index: 10;
+}
+.logo-box img{
+	width: 100px;
+	height: 25px;
+}
+
+.login-box{
+	height: 200px;
+	width: 300px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -150px;
+	text-align: center;
+	z-index: 10;
+}
+.login-box form>span{
+	position: relative;
+	display: block;
+	width: 290px;
+	height: 40px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+.login-box form>span i{
+	display: block;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 20px;
+	height: 20px;
+	margin: 10px 2px 2px 18px;
+}
+.username,.password{
+	font: 16px 微软雅黑;
+	position: absolute;
+    top: 7px;
+    right: 12px;
+    width: 216px;
+    height: 29px;
+    background: none;
+    border: none;
+    outline: none;
+    color: #fff;
+    /*border: 1px solid #fff;*/
+}
+.yzm-box{
+	width: 292px!important;
+		position: relative;
+	display: block;
+	width: 290px;
+	height: 40px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+.yzm{
+    background: none;
+    border: none;
+    outline: none;
+    color: #fff;
+    font: 16px 微软雅黑;
+    position: absolute;
+    right: 14px;
+    top: 7px;
+    width: 61px;
+    height: 29px;
+    /*border: 1px solid #fff;*/
+}
+.login-box .username-box i{
+	background-image: url("../images/username.png");
+	width: 17px;
+	margin-left: 22px;
+}
+.login-box .password-box i{
+	background-image: url("../images/password.png");
+}
+.login-box .yzm-box i{
+	background-image: url("../images/chack.png");
+}
+
+
+
+button{
+	cursor: pointer;
+	display: block;
+	width: 290px;
+	height: 40px;
+	border: none;
+	border-radius: 5px;
+	background: #fff;
+	font: 18px 微软雅黑;
+	color: #666;
+	transition: background .5s ease;
+}
+.rbutton{
+	width: 130px;
+margin-top: -40px;
+    margin-left: 161px;
+}
+.login-box button:hover{
+	background: #00BCD4;
+}
+.copyright{
+	position: absolute;
+	right: 50px;
+	bottom: 50px;
+	z-index: 10;
+}
+.copyright p{
+	font-size: 12px;
+	color: #fff;
+}
+
+.bg{
+	position: absolute;
+	z-index: 1;
+}

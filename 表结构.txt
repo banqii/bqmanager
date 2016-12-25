@@ -1,0 +1,26 @@
+后端部分：
+
+backend_sys_br and(id,name,logourl)
+
+backend_user(id,username,password,level,picurl)
+
+backend_user_to_module(backend_user_id,user_sys_module_id)
+
+backend_user_sys_module(id,name)
+
+
+
+
+
+前端部分：
+
+
+user_frontend(id,phonenumber,name,roadbook_id)
+
+roadbook(id,tittle,mapurl,)
+
+
+
+
+
+
